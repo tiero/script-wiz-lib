@@ -3,25 +3,15 @@
   "version": "0.1.7",
   "description": "",
   "scripts": {
-    "wp-umd": "npx webpack --mode production --config webpack.config.umd.js",
-    "wp-umd-dev": "npx webpack --mode development --config webpack.config.umd.js",
-    "wp-common": "npx webpack --mode production --config webpack.config.js",
-    "wp-common-dev": "npx webpack --mode development --config webpack.config.js",
-    "wp": "yarn wp-umd && yarn wp-common",
-    "wpdev": "yarn wp-umd-dev && yarn wp-common-dev",
-    "test": "jest"
+    "npm-pubish": "npm publish --access public"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
-    "@babel/preset-typescript": "^7.13.0",
     "@types/crypto-js": "^4.0.1",
     "@types/elliptic": "^6.4.12",
-    "@types/jest": "^26.0.23",
-    "@types/secp256k1": "^4.0.3",
     "babel-loader": "^8.0.6",
-    "jest": "^26.6.3",
     "ts-loader": "^8.0.18",
     "typescript": "^4.2.3",
     "webpack": "^4.41.5",
@@ -29,19 +19,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swap-cash/script-wiz-lib.git"
+    "url": "git+https://github.com/bit-matrix/script-wiz-lib.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/swap-cash/script-wiz-lib/issues"
+    "url": "https://github.com/bit-matrix/script-wiz-lib/issues"
   },
-  "homepage": "https://github.com/swap-cash/script-wiz-lib#readme",
+  "homepage": "https://github.com/bit-matrix/script-wiz-lib#readme",
   "dependencies": {
-    "@script-wiz/wiz-data": "^0.1.0",
     "bn.js": "^5.2.0",
     "crypto-js": "^4.0.0",
-    "elliptic": "^6.5.4",
-    "secp256k1": "^4.0.2"
+    "elliptic": "^6.5.4"
   }
 }

@@ -14,5 +14,5 @@ export declare type ParseResultData = {
 };
 export declare type ParseResult = ParseResultData & {
     inputHex: string;
-    errorMessage?: string;
+    errorMessage?: unknown;
 };

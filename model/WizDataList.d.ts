@@ -6,5 +6,5 @@ export declare type WizDataList = {
     flow: boolean[];
     altFlow: boolean[];
     isStackFailed: boolean;
-    errorMessage?: string;
+    errorMessage?: unknown;
 };
